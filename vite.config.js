@@ -1,6 +1,10 @@
 import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  base: '/DrogueriaElizabethGS/',  // ✅ ESTA LÍNEA ES OBLIGATORIA
-  plugins: []
+  plugins: [react()],
+  base: '/farmacia-system/', // 👈 OBLIGATORIO: es el nombre de tu repositorio
+  build: {
+    chunkSizeWarningLimit: 1000 // 👈 Esto quita el aviso del tamaño, no importa
+  }
 })
