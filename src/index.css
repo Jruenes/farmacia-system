@@ -1,0 +1,10 @@
+/* ✅ ESTA ES LA LÍNEA CORRECTA PARA TU VERSIÓN */
+@import "tailwindcss";
+
+/* TUS ESTILOS PERSONALES */
+body{
+  margin:0;
+  padding:0;
+  font-family:Arial, Helvetica, sans-serif;
+  background:#f5f7fb;
+}

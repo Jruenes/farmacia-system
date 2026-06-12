@@ -1,0 +1,15 @@
+# Dependencias (NO se suben a GitHub, se instalan luego)
+node_modules/
+
+# Archivos que se generan al compilar
+dist/
+build/
+
+# Variables de entorno (tus claves secretas, NUNCA subir)
+.env
+.env.local
+.env.*
+
+# Archivos basura del sistema
+.DS_Store
+*.log
